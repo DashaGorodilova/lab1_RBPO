@@ -2,7 +2,7 @@
 
 unsigned short height;
 
-// c глобальной переменной height
+// c ГЈГ«Г®ГЎГ Г«ГјГ­Г®Г© ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© height
 void ReadPersonHeight()
 {
     std::cout << "Please, input your height: ";
