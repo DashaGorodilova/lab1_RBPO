@@ -1,6 +1,6 @@
 #include "Header.h"
 
-// через параметры по ссылке
+// Г·ГҐГ°ГҐГ§ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ® Г±Г±Г»Г«ГЄГҐ
 void ReadPersonWeight(unsigned short& weight)
 {
     std::cout << "Please, input your weight: ";
