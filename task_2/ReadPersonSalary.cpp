@@ -1,7 +1,7 @@
 #include "Header.h"
 
 double salary;
-// через параметры по значению
+// Г·ГҐДџГҐГ§ ГЇГ ДџГ Г¬ГҐГІДџГ» ГЇГ® Г§Г­Г Г·ГҐГ­ГЁЕџ
 void ReadPersonSalary(double* salary)
 {
     std::cout << "Please, input your salary: ";
