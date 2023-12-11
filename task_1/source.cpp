@@ -74,6 +74,7 @@ void WritePersonData(
         std::cout << "Salary: " << salary << " rub" << std::endl;
 }
 
+#ifndef DO_NOT_DEFINE_MAIN
 int main() {
     unsigned short age;
     unsigned short weight;
@@ -85,3 +86,4 @@ int main() {
 
     return 0;
 }
+#endif
