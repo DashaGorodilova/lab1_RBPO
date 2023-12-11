@@ -1,11 +1,11 @@
 #include "Header.h"
 
-// через возвращаемое значение
+// Г·ГҐГ°ГҐГ§ ГўГ®Г§ГўГ°Г Г№Г ГҐГ¬Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ
 std::string ReadPersonName()
 {
     std::string name;
     std::cout << "Please, input your name: ";
-    std::cin.ignore(); // Очищаем буфер ввода перед считыванием строки
+    std::cin.ignore(); // ГЋГ·ГЁГ№Г ГҐГ¬ ГЎГіГґГҐГ° ГўГўГ®Г¤Г  ГЇГҐГ°ГҐГ¤ Г±Г·ГЁГІГ»ГўГ Г­ГЁГҐГ¬ Г±ГІГ°Г®ГЄГЁ
     std::getline(std::cin, name);
     return name;
 }
